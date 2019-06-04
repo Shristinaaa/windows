@@ -1,0 +1,74 @@
+.container {
+  width: 500px;
+  height: 300px;
+  border: 5px solid #4c4646;
+  border-radius: 5px;
+  position: absolute;
+  background: white;
+}
+
+.header {
+  height: 50px;
+  background-color: #4c4646;
+  cursor: move;
+}
+
+.icon {
+  float: right;
+  color: white;
+  margin: 10px 10px 0;
+}
+
+.fa-folder-plus {
+  color: white;
+  margin-top: 400px;
+}
+
+.fas {
+  padding: 8px;
+  background: #676a70;
+  border-radius: 50px;
+}
+
+.fas:hover {
+  background-color: gray;
+  color: black;
+}
+
+.fa-times {
+  background: #912204;
+}
+
+.fa-times:hover {
+  background: #a03636;
+}
+
+.fa-window-maximize {
+  display: none;
+}
+.menu {
+  width: 200px;
+  position: fixed;
+  display: none;
+}
+
+.menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #ccc;
+}
+
+.menu a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+#file {
+  display: none;
+}

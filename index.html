@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Three Boxes-1.0</title>
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="container" onclick="bringFront(this)">
+      <div class="header" id="header">
+        <div class="icon">
+          <i class="fas fa-window-minimize"></i>
+          <i class="fas fa-window-restore"></i>
+          <i class="fas fa-window-maximize"></i>
+
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+    </div>
+    <i class="fas fa-folder-plus"></i>
+
+    <div class="menu">
+      <a href="#">Change wallpaper</a>
+    </div>
+    <input type="file" id="file" onchange="uploadFile()" />
+
+    <script src="script.js"></script>
+  </body>
+</html>
